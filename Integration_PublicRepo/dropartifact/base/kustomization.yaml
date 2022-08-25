@@ -7,6 +7,7 @@ secretGenerator:
   files:
   - configs/.test.env
 
+# testing
 # These are usual K8s secrets embedded as JSON for use in the launcher pod. We
 # will not be mounting these into the Pod - rather, the Sonobuoy script will
 # query K8s to see if the secret exists  and if so, direct the namespace default
